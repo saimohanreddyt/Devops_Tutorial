@@ -1,0 +1,75 @@
+
+
+Operating System has two layers
+
+1. OS Kernal    [1.Layer]
+2. Applications [2.Layer]
+
+
+	Applications
+	
+	OS Kernal
+
+	Hardware
+
+
+
+
+Docker & Virtual Machine they both are virtulization tool.
+
+What is Docker?
+---------------
+Docker is popular virtualization software that helps its users in developing, deploying, monitoring, and running applications in a Docker Container with all their dependencies.
+
+Docker containers include all dependencies (frameworks, libraries, etc.) to run an application in an efficient and bug-free manner.
+
+Docker Containers have the following benefits: 
+
+    Light-weight
+    Applications run in isolation
+    Occupies less space
+    Easily portable and highly secure
+    Short boot-up time
+
+
+
+What is a Virtual Machine?
+--------------------------
+A virtual machine (VM) is a computing environment or software that aids developers to access an operating system via a physical machine.
+
+
+
+
+
+Docker:
+======
+
+	---------------
+	| Application |
+	---------------
+	  OS Kernal
+
+	  Hardware
+
+
+Virtual Machine:
+===============
+
+	----------------
+	| Applications |
+	|	       |
+	| OS Kernal    |
+	----------------
+	
+	  Hardware
+
+
+
+
+
+
+
+
+
+	
+	
