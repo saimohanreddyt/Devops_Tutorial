@@ -1,0 +1,78 @@
+
+CONTAINER is a running environment for IMAGE
+
+IMAGE is just the part of the container runtime 
+
+
+
+> docker pull "image_name"
+
+
+> docker run "image_name":"version" : It will pull and start the container right away run the image with specified given version
+
+
+> docker images : TO check the existing images in the system 
+
+
+> docker run is where you you create a new container from an image so docker run will take an image with a specific version or just latest version
+
+> docker start you are not working with images but rather with containers  
+
+
+> docker run "image_name"
+
+
+> docker run -d "image_name" : Detached mode, shown by the option --detach or -d , means that a Docker container runs in the background of your terminal.
+
+
+> docker stop "contaner_ID" : To stop the docker container 
+
+
+> docker start "container_ID" : To start the docker container
+
+
+> docker ps	: To check all the ruunning docker containers 
+
+
+> docker ps -a : It will show the all the containers which are running and not running
+
+
+> docker exec -it
+
+
+> docker log
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Binding between the host and the container port
+
+> docker run -p"any_port_no":"our_port" "image_name"
+
+> docker run -p"any_port_no":"our_port" -d "image_name" : Detached mode, shown by the option --detach or -d , means that a Docker container runs in the background of your terminal. 
+
+> docker run -d -p"any_port_no":"our_port" --name "name_for_container" "image_name" : The docker logs command shows information logged by a running container.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+A very useful command in debugging is docker exec. So, we can actually get the terminal of a running container 
+
+docker exec -it "container_ID" /bin/bash    to open terminal of a running container using container_id			-it stands for interactive terminal
+
+docker exec -it "container_name" /bin/bash  to open terminal of a running container using container_name
+
+env : Enviornmental Variable to see that something is set correctively and do all kinds of stuff here and this could be very useful if you have a container with some complex configuration
+
+exit : use exit terminal to get out from the terminal of a running container
+
+
+
+
+
+
+
+
+
+
+
+
+
