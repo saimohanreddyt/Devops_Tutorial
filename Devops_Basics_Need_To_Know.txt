@@ -1,0 +1,66 @@
+
+
+Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
+
+
+
+
+Containerization is a lightweight alternative to a virtual machine that involves encapsulating an application in a container with its own operating system. A container takes its meaning from the logistics term, packaging container.
+
+
+
+
+Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, 
+libraries and configuration files; they can communicate with each other through well-defined channels
+
+
+
+
+
+Jenkins is a free and open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. 
+It is a server-based system that runs in servlet containers such as Apache Tomcat.
+
+
+
+Helm helps you manage Kubernetes applications — Helm Charts help you define, install, and upgrade even the most complex Kubernetes application.
+
+
+
+Ansible is an open-source software provisioning, configuration management, and application-deployment tool enabling infrastructure as code. It runs on many Unix-like systems, 
+and can configure both Unix-like systems as well as Microsoft Windows.
+
+
+
+
+Terraform is an open-source infrastructure as code software tool created by HashiCorp. Users define and provision data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, 
+or optionally JSON.
+
+
+
+Orchestration is the automated configuration, management, and coordination of computer systems, applications, and services. Orchestration helps IT to more easily manage complex tasks and workflows. 
+IT teams must manage many servers and applications, but doing so manually isn't a scalable strategy.
+
+
+
+
+
+Container
+---------
+A container is a software package that contains everything the software needs to run. This includes the executable program as well as system tools, libraries, and settings. 
+Containers are not installed like traditional software programs, which allows them to be isolated from the other software and the operating system itself.
+
+The isolated nature of containers provides several benefits. First, the software in a container will run the same in different environments. For example, 
+a container that includes PHP and MySQL can run identically on both a Linux computer and a Windows machine. Second, containers provide added security since the software will not affect the host operating system. 
+While an installed application may alter system settings and modify resources, such as the Windows registry, a container can only modify settings within the container. This makes containers ideal for software testing and development.
+
+Containers also eliminate installation issues, including system conflicts, version incompatibilities, and missing dependencies. The result is a "works on all machines" solution, which is ideal for both developers and end users. 
+It also makes the jobs of network administrators easier, since they can deliver containers to a multiple users without having to worry about compatibility issues.
+
+Containers vs Virtual Machines
+------------------------------
+Containers are similar to virtual machines (virtualization) since they include everything needed to run in a single package. However, unlike virtual machines (VMs), containers do not include a guest OS. 
+Instead containers run on top of a "container platform," like Docker, which is installed on an operating system. Containers are "lightweight," meaning they require far less disk space than VMs. 
+Additionally, multiple containers can run side-by-side on the same container platform.
+
+
+
